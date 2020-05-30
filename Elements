@@ -1,0 +1,159 @@
+package MyGuitar;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Elements {
+
+	WebDriver driver;
+	By ele1 = By.xpath("//li[13]//span[3]//i[1]");
+	By ele2 = By.xpath("//li[11]//span[1]//i[1]");
+	By ele3 = By.xpath("//li[6]//span[4]//i[1]");
+	By ele4 = By.xpath("//li[9]//span[4]//i[1]");
+	By ele5 = By.xpath("//li[11]//span[6]//i[1]");
+	By ele6 = By.xpath("//li[11]//span[5]//i[1]");
+	By ele7 = By.xpath("//li[9]//span[3]//i[1]");
+	By ele8 = By.xpath("//li[8]//span[5]//i[1]");
+	By ele9 = By.xpath("//li[8]//span[2]//i[4]");
+	By ele10 = By.xpath("//li[8]//span[5]//i[1]");
+	By ele11 = By.xpath("//li[11]//span[5]//i[1]");
+	By ele12 = By.xpath("//li[7]//span[3]//i[1]");
+	By ele13 = By.xpath("//li[13]//span[4]//i[1]");
+	By ele14 = By.xpath("//li[11]//span[4]//i[1]");
+	By ele15 = By.xpath("//li[5]//span[4]//i[1]");
+	By ele16 = By.xpath("//li[5]//span[4]//i[1]");
+	By ele17 = By.xpath("//li[7]//span[1]//i[1]");
+	By ele18 = By.xpath("//li[6]//span[1]//i[1]");
+	By ele19 = By.xpath("//li[4]//span[6]//i[1]");
+	By ele20 = By.xpath("//li[10]//span[5]//i[1]");
+
+	public Elements(WebDriver driver1) {
+		this.driver = driver1;
+
+	}
+
+	public void clickelements1() {
+
+		driver.findElement(ele1).click();
+
+	}
+
+	public void clickelements2() {
+
+		driver.findElement(ele2).click();
+
+	}
+
+	public void clickelements3() {
+
+		driver.findElement(ele3).click();
+
+	}
+
+	public void clickelements4() {
+
+		driver.findElement(ele4).click();
+
+	}
+
+	public void clickelement5() {
+
+		driver.findElement(ele5).click();
+
+	}
+
+	public void clickelements6() {
+
+		driver.findElement(ele6).click();
+
+	}
+
+	public void clickelement7() {
+
+		driver.findElement(ele7).click();
+
+	}
+
+	public void clickelements8() {
+
+		driver.findElement(ele8).click();
+
+	}
+
+	public void clickelements9() {
+
+		driver.findElement(ele9).click();
+
+	}
+
+	public void clickelements10() {
+
+		driver.findElement(ele10).click();
+
+	}
+
+	public void clickelements11() {
+
+		driver.findElement(ele11).click();
+
+	}
+
+	public void clickelements12() {
+
+		driver.findElement(ele12).click();
+
+	}
+
+	public void clickelements13() {
+
+		driver.findElement(ele13).click();
+
+	}
+
+	public void clickelements14() {
+
+		driver.findElement(ele14).click();
+
+	}
+
+	public void clickelements15() {
+
+		driver.findElement(ele15).click();
+
+	}
+
+	public void clickelements16() {
+
+		driver.findElement(ele16).click();
+
+	}
+
+	public void clickelements17() {
+
+		driver.findElement(ele17).click();
+
+	}
+
+	public void clickelements18() {
+
+		driver.findElement(ele18).click();
+
+	}
+
+	public void clickelements19() {
+
+		driver.findElement(ele19).click();
+
+	}
+
+	public void clickelements20() {
+
+		driver.findElement(ele20).click();
+
+	}
+
+}
